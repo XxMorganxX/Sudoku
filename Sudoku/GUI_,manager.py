@@ -20,8 +20,8 @@ c = Canvas(window,width=600, height=800, bg='blue')
 c.pack(expand=YES, fill=BOTH)
 
 #Backdrop and Title || Menu
-bg = ImageTk.PhotoImage(file="C:\\Users\\Morga\\Desktop\\Python Projects\\Sudoku Folder\\outerspace.gif", format="gif -index 2")
-textImg = ImageTk.PhotoImage(file="C:\\Users\\Morga\\Desktop\\Python Projects\\Sudoku Folder\\SudokuText.png")
+bg = ImageTk.PhotoImage(file="C:\\Users\\Morga\\Desktop\\PYTHON PROJECTS\\Sudoku Git Test\\Sudoku\\outerspace.gif", format="gif -index 2")
+textImg = ImageTk.PhotoImage(file="C:\\Users\\Morga\\Desktop\\PYTHON PROJECTS\\Sudoku Git Test\\Sudoku\\SudokuText.png")
 
 #Menu Buttons
 easyButton = Button(c, text="Easy Sudoku", command= lambda : launchGame("Easy"))
