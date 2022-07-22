@@ -4,7 +4,7 @@ from re import search
 
 class file_handled:
     def __init__(self):
-        solutions_path, problems_path = r"C:\Users\Morga\Desktop\Python Projects\Sudoku Folder\SudokuText", r"C:\Users\Morga\Desktop\Python Projects\Sudoku Folder\SolutionText"
+        solutions_path, problems_path = "C:\\Users\\Morga\\Desktop\\PYTHON PROJECTS\\Sudoku Git Test\\Sudoku\\SudokuText", "C:\\Users\\Morga\\Desktop\\PYTHON PROJECTS\\Sudoku Git Test\\Sudoku\\SudokuText"
         allPaths = [problems_path, solutions_path]
 
         self.allText = [[], []]
